@@ -5,7 +5,7 @@
 
 /* CT: Custom */
 .ct-top-menu-expand {
-    @apply absolute top-10 z-50 w-full bg-white animate-slideDown;
+    @apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown;
 }
 .ct-top-menu-item {
     @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 

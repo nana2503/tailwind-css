@@ -17,6 +17,9 @@ export default {
       },
       animation: {
         slideDown: 'slideDown 0.4s ease-in-out'
+      },
+      backgroundImage: {
+        'slider-bg': 'url("./img/header.jpg")'
       }
     },
   },

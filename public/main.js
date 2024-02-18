@@ -11,3 +11,12 @@ document.addEventListener('click', (e) => {
         }
     }
 })
+// optional
+window.addEventListener('resize', (e) => {
+    if(window.innerWidth > 1024) {
+        if(topMenu.classList.contains('ct-top-menu-expand')){
+            topMenu.classList.add("hidden")
+            topMenu.classList.toggle("ct-top-menu-expand")
+        }
+    }
+})
