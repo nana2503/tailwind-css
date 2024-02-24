@@ -562,16 +562,12 @@ video {
   left: 4%;
 }
 
-.right-0{
-  right: 0px;
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
-}
-
 .left-\[calc\(-50vw_\+_50\%\)\]{
   left: calc(-50vw + 50%);
+}
+
+.right-0{
+  right: 0px;
 }
 
 .mx-16{
@@ -601,6 +597,10 @@ video {
 
 .mb-16{
   margin-bottom: 4rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .mb-24{
@@ -675,6 +675,10 @@ video {
   height: 280px;
 }
 
+.h-\[310px\]{
+  height: 310px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -691,16 +695,20 @@ video {
   height: 100%;
 }
 
-.h-\[340px\]{
-  height: 340px;
+.h-\[500px\]{
+  height: 500px;
 }
 
-.h-\[1000px\]{
-  height: 1000px;
+.h-\[350px\]{
+  height: 350px;
 }
 
 .w-11\/12{
   width: 91.666667%;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-fit{
@@ -715,10 +723,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -789,16 +793,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
 }
 
 .border-b-\[0\.5px\]{
@@ -828,6 +832,21 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1d1f2e\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 31 46 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-40{
@@ -886,20 +905,24 @@ video {
   background-image: url('./img/magazine-3.png');
 }
 
+.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
+  background-image: url('./img/parallax.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/story-2\.jpg\'\)\]{
+  background-image: url('./img/story-2.jpg');
+}
+
 .bg-slider-bg{
   background-image: url("./img/header.jpg");
 }
 
-.bg-\[url\(\'\.\/img\/parllax0img\.jpg\'\)\]{
-  background-image: url('./img/parllax0img.jpg');
+.bg-\[url\(\'\.\/img\/story-1\.jpg\'\)\]{
+  background-image: url('./img/story-1.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/parllax\.jpg\'\)\]{
-  background-image: url('./img/parllax.jpg');
-}
-
-.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
-  background-image: url('./img/parallax.jpg');
+.bg-\[url\(\'\.\/img\/story-3\.jpg\'\)\]{
+  background-image: url('./img/story-3.jpg');
 }
 
 .bg-cover{
@@ -1051,6 +1074,10 @@ video {
   font-weight: 600;
 }
 
+.font-\[400\]{
+  font-weight: 400;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -1095,6 +1122,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .line-through{
